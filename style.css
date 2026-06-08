@@ -13,9 +13,12 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: white;
+  background-color: rgb(14, 14, 199);
   /* PROBLEMA #2: fonte genérica do sistema, sem importação */
-  font-family: serif;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
 
@@ -24,6 +27,7 @@ body {
    Esperado: importar fonte do Google Fonts (ex: Inter, Poppins)
    e aplicar corretamente em body.
    ─────────────────────────────────────────────────────────── */
+
 
 
 /* ─── CABEÇALHO ─────────────────────────────────────────────
