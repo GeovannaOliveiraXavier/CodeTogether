@@ -33,6 +33,9 @@ body {
 .cabecalho {
   background-color: #cccccc;
   padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   /* SEM FLEX — itens ficam um embaixo do outro */
 }
 
@@ -94,7 +97,10 @@ body {
 .secao-cards {
   padding: 20px;
   background-color: #f9f9f9;
-  /* SEM GRID */
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  /* SEM GRID — cards ficam um embaixo do outro */
 }
 
 .secao-cards h2 {
@@ -128,7 +134,11 @@ body {
    PROBLEMA #6: aparência geral sem cuidado visual.
    ─────────────────────────────────────────────────────────── */
 .sobre {
-  padding: 5px;
+  max-width: 800px;
+  padding: 30px;
+  margin: 40px auto;
+  max-width: none;
+
   /* SEM margin, SEM max-width, SEM centralização */
 }
 
