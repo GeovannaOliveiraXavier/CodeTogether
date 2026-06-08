@@ -13,7 +13,10 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: white;
+  background-image: url(https://stcbfsiteprdimgbrs.blob.core.windows.net/img-site/cdn/IMG_1101_5dde3254eb.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   /* PROBLEMA #2: fonte genérica do sistema, sem importação */
   font-family: serif;
 }
