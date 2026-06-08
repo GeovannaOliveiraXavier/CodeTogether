@@ -54,13 +54,13 @@ body {
 
 .hero h1 {
   /* PROBLEMA #4: cor do título quase igual ao fundo */
-  color: #bbbbbb;
+  color: #000;
   font-size: 28px;
 }
 
 .hero p {
   /* PROBLEMA #4: texto cinza claro sobre fundo cinza */
-  color: #c0c0c0;
+  color: #000;
   font-size: 14px;
 }
 
@@ -99,7 +99,7 @@ body {
 
 .secao-cards h2 {
   /* PROBLEMA #4: cor quase invisível */
-  color: #dddddd;
+  color: #000;
 }
 
 .card {
@@ -112,12 +112,12 @@ body {
 .card h3 {
   font-size: 14px;
   /* PROBLEMA #4: sem contraste adequado */
-  color: #999999;
+  color: #000;
 }
 
 .card p {
   font-size: 12px;
-  color: #aaaaaa;
+  color: #000;
   /* PROBLEMA #4: texto muito claro sobre fundo claro */
 }
 
@@ -133,12 +133,12 @@ body {
 }
 
 .sobre h2 {
-  color: #bbbbbb;
+  color: #000;
   /* PROBLEMA #4: baixo contraste */
 }
 
 .sobre p {
-  color: #cccccc;
+  color: #000;
   font-size: 11px;
   /* PROBLEMA #4: texto quase invisível */
   line-height: 1;
