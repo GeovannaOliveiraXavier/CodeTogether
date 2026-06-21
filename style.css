@@ -13,8 +13,8 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: white;
-  /* PROBLEMA #2: fonte genérica do sistema, sem importação */
+  background: linear-gradient(to bottom, #e3f2fd, #ffffff);
+  /* Problema #2 ainda não foi corrigido */
   font-family: serif;
 }
 
